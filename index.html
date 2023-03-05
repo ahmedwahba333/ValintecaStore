@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Valinteca Task">
+    <meta name="keywords" content="HTML CSS JavaScript">
+    <meta name="author" content="Ahmed Mostafa Ismail Valinteca Coins">
+    <link rel="icon" href="./assets/imgs/icon.jpg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Valinteca</title>
+</head>
+
+<body>
+    <!-- start nav -->
+    <nav class="nav">
+        <h1 class="title">Valinteca</h1>
+        <div class="material-symbols-outlined" onclick="chartIcon()">
+            shopping_cart
+            <span class="cartNum" id="cartNumId"></span>
+        </div>
+        <section class="products dispNone" id="cartProductsId">
+            <h2 class="titleHeading">Chart</h2>
+            <div id="chartProduct"></div>
+            <div id="chartProductSum"></div>
+        </section>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start products section -->
+    <section class="products" id="productsId"></section>
+    <!-- end products section -->
+
+    <!-- start modal section -->
+    <section class="myModal dispNone" id="myModalId"></section>
+    <!-- end modal section -->
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
