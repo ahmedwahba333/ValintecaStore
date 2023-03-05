@@ -166,6 +166,16 @@ body {
     padding: 20px;
     border-radius: 0 0 0 20px;
 }
+@media only screen and (max-width:585px) {
+    #cartProductsId{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width:379px) {
+    #cartProductsId{
+        width: 15rem;
+    }
+}
 
 #cartProductsId .titleHeading {
     color: white;
